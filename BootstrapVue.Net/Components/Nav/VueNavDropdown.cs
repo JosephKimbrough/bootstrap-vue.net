@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using static BootstrapVue.Net.Components.Nav.Constants.NavDropdownProperties;
+using static Showout.BootstrapVue.Net.Components.Nav.Constants.NavDropdownProperties;
 
-namespace BootstrapVue.Net.Components.Nav
+namespace Showout.BootstrapVue.Net.Components.Nav
 {
     public partial class VueNav
     {

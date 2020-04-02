@@ -1,6 +1,6 @@
-﻿using static BootstrapVue.Net.Components.Nav.Constants.NavTextProperties;
+﻿using static Showout.BootstrapVue.Net.Components.Nav.Constants.NavTextProperties;
 
-namespace BootstrapVue.Net.Components.Nav
+namespace Showout.BootstrapVue.Net.Components.Nav
 {
     public partial class VueNav
     {

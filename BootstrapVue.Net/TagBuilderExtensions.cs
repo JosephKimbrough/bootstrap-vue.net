@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace BootstrapVue.Net
+namespace Showout.BootstrapVue.Net
 {
     public static class TagBuilderExtensions
     {

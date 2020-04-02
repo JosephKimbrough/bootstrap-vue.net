@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using static BootstrapVue.Net.Components.Nav.Constants;
-using static BootstrapVue.Net.Components.Nav.Constants.NavProperties;
+using static Showout.BootstrapVue.Net.Components.Nav.Constants;
+using static Showout.BootstrapVue.Net.Components.Nav.Constants.NavProperties;
 
-namespace BootstrapVue.Net.Components.Nav
+namespace Showout.BootstrapVue.Net.Components.Nav
 {
     public partial class VueNav : VueTagBuilder, IVueTag
     {
@@ -13,8 +13,8 @@ namespace BootstrapVue.Net.Components.Nav
         public bool MakeSmall { get; set; } = false;
 
         public AlignmentVariation Alignment { get; set; } = AlignmentVariation.left;
-        private ICollection<AlignmentVariation> DisplayableAlignments 
-            = new AlignmentVariation[] 
+        private ICollection<AlignmentVariation> DisplayableAlignments
+            = new AlignmentVariation[]
             {
                 AlignmentVariation.left,
                 AlignmentVariation.center,
@@ -37,11 +37,11 @@ namespace BootstrapVue.Net.Components.Nav
         public override string ToString()
         {
 
-            if (DisplayableStyles.Contains(Style)) this.PropertyCollection.Add(Style.ToString());
-            if (DisplayableSpaceVariations.Contains(Spacing)) this.PropertyCollection.Add(Spacing.ToString());
-            if (DisplayableAlignments.Contains(Alignment)) this.Attributes.Add(AlignmentAttributeKey, Alignment.ToString());
+            if (DisplayableStyles.Contains(Style)) PropertyCollection.Add(Style.ToString());
+            if (DisplayableSpaceVariations.Contains(Spacing)) PropertyCollection.Add(Spacing.ToString());
+            if (DisplayableAlignments.Contains(Alignment)) Attributes.Add(AlignmentAttributeKey, Alignment.ToString());
 
-            if (MakeSmall) this.PropertyCollection.Add(SmallPropertyText);
+            if (MakeSmall) PropertyCollection.Add(SmallPropertyText);
             if (IsVertical) PropertyCollection.Add(VerticalPropertyText);
 
             return base.ToString();

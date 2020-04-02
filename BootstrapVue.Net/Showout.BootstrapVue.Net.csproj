@@ -7,8 +7,8 @@
     <ProjectGuid>{1AE8763B-A0F0-466C-9F76-F77C57A19942}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BootstrapVue.Net</RootNamespace>
-    <AssemblyName>BootstrapVue.Net</AssemblyName>
+    <RootNamespace>Showout.BootstrapVue.Net</RootNamespace>
+    <AssemblyName>Showout.BootstrapVue.Net</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace BootstrapVue.Net.Components
+namespace Showout.BootstrapVue.Net.Components
 {
     public interface IVueTag
     {

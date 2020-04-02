@@ -1,9 +1,9 @@
-﻿using BootstrapVue.Net.Components;
+﻿using Showout.BootstrapVue.Net.Components;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Mvc;
 
-namespace BootstrapVue.Net
+namespace Showout.BootstrapVue.Net
 {
     public abstract class VueTagBuilder : TagBuilder, IVueTag
     {

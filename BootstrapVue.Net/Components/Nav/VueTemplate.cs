@@ -1,4 +1,4 @@
-﻿namespace BootstrapVue.Net.Components.Nav
+﻿namespace Showout.BootstrapVue.Net.Components.Nav
 {
     public class VueTemplate : VueTagBuilder
     {
